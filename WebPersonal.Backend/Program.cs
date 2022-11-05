@@ -1,7 +1,10 @@
 var builder = WebApplication.CreateBuilder(args);
-var app = builder.Build();
 
-app.MapGet("/", () => "Hello World!");
+// Add services to the container.
+builder.Services.AddRazorPages();
+builder.Services.AddControllersWithViews();
+
+var app = builder.Build();
 
 // Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())
@@ -13,7 +16,11 @@ if (!app.Environment.IsDevelopment())
 app.UseHttpsRedirection();
 app.UseStaticFiles();
 
+app.UseAuthorization();
+
 app.UseRouting();
+
+app.MapGet("/", () => "Hello World!");
 
 // Mapeo de controladores nuevos
 app.UseEndpoints(endpoints =>
@@ -22,6 +29,7 @@ app.UseEndpoints(endpoints =>
     endpoints.MapRazorPages();
 });
 
-app.UseAuthorization();
+app.MapDefaultControllerRoute();
+app.MapRazorPages();
 
 app.Run();
