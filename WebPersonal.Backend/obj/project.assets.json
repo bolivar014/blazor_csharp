@@ -14,9 +14,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\JUAN-\\OneDrive\\Documentos\\WebPersonal.Backend\\WebPersonal.Backend\\WebPersonal.Backend.csproj",
-      "projectName": "WebPersonal.Backend",
-      "projectPath": "C:\\Users\\JUAN-\\OneDrive\\Documentos\\WebPersonal.Backend\\WebPersonal.Backend\\WebPersonal.Backend.csproj",
+      "projectUniqueName": "C:\\Users\\JUAN-\\OneDrive\\Documentos\\WebPersonal.Backend\\WebPersonal.Backend\\WebPersonal.BackEnd.API.csproj",
+      "projectName": "WebPersonal.BackEnd.API",
+      "projectPath": "C:\\Users\\JUAN-\\OneDrive\\Documentos\\WebPersonal.Backend\\WebPersonal.Backend\\WebPersonal.BackEnd.API.csproj",
       "packagesPath": "C:\\Users\\JUAN-\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\JUAN-\\OneDrive\\Documentos\\WebPersonal.Backend\\WebPersonal.Backend\\obj\\",
       "projectStyle": "PackageReference",
